@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='ASCII'?>
+<ns0:CFE xmlns:ns0="http://cfe.dgi.gub.uy" version="1.0">
+  <ns0:eFact>
+    <ns0:TmstFirma>2023-03-01T10:22:37-03:00</ns0:TmstFirma>
+    <ns0:Encabezado>
+      <ns0:IdDoc>
+        <ns0:TipoCFE>111</ns0:TipoCFE>
+        <ns0:Serie>A</ns0:Serie>
+        <ns0:Nro>4</ns0:Nro>
+        <ns0:FchEmis>2023-03-01</ns0:FchEmis>
+        <ns0:FmaPago>2</ns0:FmaPago>
+      </ns0:IdDoc>
+      <ns0:Emisor>
+        <ns0:RUCEmisor>219314970014</ns0:RUCEmisor>
+        <ns0:RznSoc>SOFTWARE DEV SAS</ns0:RznSoc>
+        <ns0:CdgDGISucur>1</ns0:CdgDGISucur>
+        <ns0:DomFiscal>Canelones 896 apto 1002</ns0:DomFiscal>
+        <ns0:Ciudad>Montevideo</ns0:Ciudad>
+        <ns0:Departamento>Montevideo</ns0:Departamento>
+      </ns0:Emisor>
+      <ns0:Receptor>
+        <ns0:TipoDocRecep>2</ns0:TipoDocRecep>
+        <ns0:CodPaisRecep>UY</ns0:CodPaisRecep>
+        <ns0:DocRecep>218180930015</ns0:DocRecep>
+        <ns0:RznSocRecep>Amedatol SRL</ns0:RznSocRecep>
+        <ns0:DirRecep>Av Italia 6201 bis</ns0:DirRecep>
+        <ns0:CiudadRecep>Montevideo</ns0:CiudadRecep>
+        <ns0:DeptoRecep>Montevideo</ns0:DeptoRecep>
+      </ns0:Receptor>
+      <ns0:Totales>
+        <ns0:TpoMoneda>USD</ns0:TpoMoneda>
+        <ns0:TpoCambio>38.893</ns0:TpoCambio>
+        <ns0:MntNetoIVATasaBasica>10000.00</ns0:MntNetoIVATasaBasica>
+        <ns0:IVATasaBasica>22</ns0:IVATasaBasica>
+        <ns0:MntIVATasaBasica>2200.00</ns0:MntIVATasaBasica>
+        <ns0:MntTotal>12200.00</ns0:MntTotal>
+        <ns0:CantLinDet>1</ns0:CantLinDet>
+        <ns0:MntPagar>12200.00</ns0:MntPagar>
+      </ns0:Totales>
+    </ns0:Encabezado>
+    <ns0:Detalle>
+      <ns0:Item>
+        <ns0:NroLinDet>1</ns0:NroLinDet>
+        <ns0:IndFact>3</ns0:IndFact>
+        <ns0:NomItem>Soporte y mantenimiento software</ns0:NomItem>
+        <ns0:DscItem/>
+        <ns0:Cantidad>1.000000</ns0:Cantidad>
+        <ns0:UniMed>N/A</ns0:UniMed>
+        <ns0:PrecioUnitario>10000.000000</ns0:PrecioUnitario>
+        <ns0:MontoItem>10000.00</ns0:MontoItem>
+      </ns0:Item>
+    </ns0:Detalle>
+    <ns0:CAEData>
+      <ns0:CAE_ID>90222198589</ns0:CAE_ID>
+      <ns0:DNro>1</ns0:DNro>
+      <ns0:HNro>150</ns0:HNro>
+      <ns0:FecVenc>2024-12-05</ns0:FecVenc>
+    </ns0:CAEData>
+  </ns0:eFact>
+  <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+    <ds:SignedInfo>
+      <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2006/12/xml-c14n11"/>
+      <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+      <ds:Reference URI="">
+        <ds:Transforms>
+          <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+          <ds:Transform Algorithm="http://www.w3.org/2006/12/xml-c14n11"/>
+        </ds:Transforms>
+        <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+        <ds:DigestValue>fEDR0VrYh5Ox7+WDW1rwj2dQp3JsEp8ia5wRe4LyTrM=</ds:DigestValue>
+      </ds:Reference>
+    </ds:SignedInfo>
+    <ds:SignatureValue>IC0/+YxWisukgx78GNdBYsyBPDOWMk137fhNxf+HWV+rAU/YtYHevLIgwevI/EBQKSgRLASTAhAjIEXMIw9FaNXtxv2iztsiHmprAN05er2M1zCEtK2JjH3hSeKTdjT1w3DagMkYgjymCFxTItbNG+L+CsqXD8yOPbJCv7XDlZKfvqIQaIg1tHlQaWcQTT/85f8pST6UkikkFTjV/XQxhjNU38bNqxpXn7BAfK2XSDK0lf4d7D7zgqLn14XEynryUeKlkdVMWpf2PX2PRA1Q0yIldwjrPDLIJcG7Ni56sueCP1t7mrYZNjlLRa7Ky2QjCZYJGC3h9TEEmlYExONgEg==</ds:SignatureValue>
+    <ds:KeyInfo>
+      <ds:X509Data>
+        <ds:X509Certificate>MIIGfzCCBGegAwIBAgIUcUqDQsVj/yEppqVkrWDLcHl56yMwDQYJKoZIhvcNAQEL
+BQAwXjELMAkGA1UEBhMCVVkxEzARBgNVBAcTCk1vbnRldmlkZW8xFDASBgNVBAoT
+C0FiaXRhYiBTLkEuMRMwEQYDVQQLEwpJRCBkaWdpdGFsMQ8wDQYDVQQDEwZBYml0
+YWIwHhcNMjIxMTI0MTkxMzAwWhcNMjQxMTIzMTkxMzAwWjByMQswCQYDVQQGEwJV
+WTETMBEGA1UECBMKTW9udGV2aWRlbzEYMBYGA1UEBRMPUlVDMjE5MzE0OTcwMDE0
+MRkwFwYDVQQKExBTT0ZUV0FSRSBERVYgU0FTMRkwFwYDVQQDExBTT0ZUV0FSRSBE
+RVYgU0FTMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwvuoH11xV+MI
+O5brJVYbJ1Lzud+9R+tpaxtrGBFq9b+wNNpZymokai1I7+FNCrYvybsHeguW6asR
+HuZ3+LP5TLyoYGPtRiyIei+iEgnp0GxKnyinw9/nB15q/zV6GKw129R8Ken079pc
+/SX9bZpbEhon/Ubu+YPVXg306Dw+LJ8p8LTnllSmHORflhKACGiYDUJj3D1kvk1L
+gvRBdH7yver26Axn4p5B8Z6/Vw5GtC4+Yo3wDKg8DCrD4olzlkxLoiPLoOgNONUa
+492qA2J6BSidOR6QjJZrkGsAJKWIF1XoKCCtBIYm5m31a0HA6wdfOhVn3LMWP2EJ
+pz6lCGkIzQIDAQABo4ICHzCCAhswgYAGCCsGAQUFBwEBBHQwcjA1BggrBgEFBQcw
+AoYpaHR0cDovL3d3dy5pZC5jb20udXkvcmVzb3VyY2VzL0FiaXRhYi5jcnQwOQYI
+KwYBBQUHMAGGLWh0dHA6Ly9vY3NwLmlkLmNvbS51eS9hc2Yvc2VydmxldC9PQ1NQ
+U2VydmxldDAOBgNVHQ8BAf8EBAMCBPAwDAYDVR0TAQH/BAIwADBOBgNVHR8ERzBF
+MEOgQaA/hj1odHRwOi8vY3JsLmlkLmNvbS51eS9yZXNvdXJjZXMvY3JsX2lkX2Rp
+Z2l0YWxfcGtpX3VydWd1YXkuY3JsMIHSBgNVHSAEgcowgccwZAYLYIZahOKuHYSI
+BQQwVTBTBggrBgEFBQcCARZHaHR0cDovL3VjZS5ndWIudXkvaW5mb3JtYWNpb24t
+dGVjbmljYS9wb2xpdGljYXMvY3BfcGVyc29uYV9qdXJpZGljYS5wZGYwXwYLYIZa
+hOKuHYSIBQcwUDBOBggrBgEFBQcCARZCaHR0cDovL3d3dy5pZC5jb20udXkvcmVz
+b3VyY2VzL2Nwc19pZF9maXJtYUVsZWN0cm9uaWNhQXZhbnphZGEucGRmMBMGA1Ud
+JQQMMAoGCCsGAQUFBwMCMB0GA1UdDgQWBBRrjylLVdgR/BmR7Od4Mf4HMc5V8TAf
+BgNVHSMEGDAWgBQNE9b2xiim58W3h9EknJ+T8OgdOzANBgkqhkiG9w0BAQsFAAOC
+AgEAny8tvBP90aqKV8RsBR8zKJgrXcpn+PZptkvz3b4xppXswsRp9TkXvOkV1QVv
+B/dLku+6IzPrh0sZvp1bxTcaKd0CJsIILAD+D0Y+hn8vRyWEbTMayD3AhuJrirW1
+zg3RYEPlP8teHA+SBKB2ly6GlaX5Iakcb6V8Ll5cmtTpOQNVqIOZ9dW1olDmwB8b
+g4qFPWoCEFEJz2kav2Wm15d8ITbaVH+Uc8oH1x7KdEWXlnBvPdSF1riOyqCEzi9V
+JQ48GRy3PTug9yQvWqVkVs6y6rwIbeTxGV/hommRWeh3QeYx6icWaQes55zYTRrw
+LNbGJrb5Kx4kQvqpNEvjnRZMsOkyV0cWyi1VFShTKNVBYsysWLiA/ztqgMhHP3RQ
+FxsQ9paXzoQzLeUks0Q1CWexQawySNUROfnD6VXphlSCBwsZRg76c1X5TPL3QM/a
+a+q0hmnTJpUkhjwKygrR4KPK2Ev9FMN9uKXfgL+K80fCmiwu6Bg51vJAHM5THLhZ
++JF8aSMJ9oG9sKF3CLOAb/2nuKFz8MMXvqDEssKF0P8qnOTa58Oy1cyq7pdhW/3a
+gGwNFVWlQR24WhK47oV8EsidrXj+0wgCDb0QsA1/bn3K/m53/wur5QswmbqIjFBJ
+mo5dm0vo1n5B9Gg58pyn9GrxxgPi2X15m+/vmyTeUCCgivM=
+</ds:X509Certificate>
+        <ds:X509SubjectName>SOFTWARE DEV SAS</ds:X509SubjectName>
+        <ds:X509IssuerSerial>
+          <ds:X509IssuerName>CN=Abitab,OU=ID digital,O=Abitab S.A.,L=Montevideo,C=UY</ds:X509IssuerName>
+          <ds:X509SerialNumber>646777646678255536925560214837230925993127570211</ds:X509SerialNumber>
+        </ds:X509IssuerSerial>
+      </ds:X509Data>
+    </ds:KeyInfo>
+  </ds:Signature>
+</ns0:CFE>
